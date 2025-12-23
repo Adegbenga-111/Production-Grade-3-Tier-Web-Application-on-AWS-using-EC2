@@ -60,3 +60,37 @@ Image 4: The AZ of the Subnet and some Other setting put in place.
 Enable Auto-assign public IPv4 to ensure that the subnet is reachable through the internet . 
 
 
+Private App Subnets
+
+Private -Subnet-App A: 10.0.11.0/24
+
+![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(216).png)
+
+Image 5.
+
+Private -Subnet-App B: 10.0.12.0/24
+
+
+![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(217).png)
+
+Image 6.
+
+Private DB Subnets
+
+Private DB  A: 10.0.21.0/24
+
+
+![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(218).png)
+
+Image 7.
+
+Private DB  B: 10.0.22.0/24
+
+
+![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(219).png)
+
+Image 8.
+
+
+
+
