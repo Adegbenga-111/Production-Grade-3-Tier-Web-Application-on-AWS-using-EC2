@@ -50,8 +50,11 @@ Image 3: The AZ of the Subnet and some Other setting put in place.
 
 Image 4: Enabling Auto-assign public IPv4.
 
-
-
 Public Subnet B (AZ-B): 10.0.2.0/24
+
+
+![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(215).png)
+
+Image 4: The AZ of the Subnet and some Other setting put in place.
 
 Enable Auto-assign public IPv4 to ensure that the subnet is reachable through the internet . 
