@@ -32,5 +32,26 @@ As shown in the Image below :
 Image 02.
 
 
- As shown in the image below :
-  
+### Steps 2 
+
+Create Subnets (Multi-Availability Zone (AZ) ): The reason for this is to ensure high availability of the web app. 
+
+Public Subnets:
+
+Public Subnet A (AZ-A): 10.0.1.0/24, as shown below :
+
+
+![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(214).png)
+
+Image 3: The AZ of the Subnet and some Other setting put in place.
+
+
+![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(225).png)
+
+Image 4: Enabling Auto-assign public IPv4.
+
+
+
+Public Subnet B (AZ-B): 10.0.2.0/24
+
+Enable Auto-assign public IPv4 to ensure that the subnet is reachable through the internet . 
