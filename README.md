@@ -91,6 +91,21 @@ Private DB  B: 10.0.22.0/24
 
 Image 8.
 
+### Step 3 
+
+Internet Gateway
+
+Create and attach IGW to the VPC
+
+Name: IGW ; As shown in the images below :
 
 
+![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(220).png)
+
+Image 9: creation of the  Internet Gateway.
+
+
+![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(221).png)
+
+Image 10: Attaching the Internet Gateway to the vpc .
 
