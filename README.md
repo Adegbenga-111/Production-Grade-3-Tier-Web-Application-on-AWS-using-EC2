@@ -8,4 +8,14 @@ The solution consists of a static frontend hosted on Amazon S3, a containerized 
 
 The architecture incorporates Auto Scaling, IAM roles, private subnets, NAT Gateways, VPC Flow Logs, Amazon CloudWatch, and Amazon SNS to reflect real-world, enterprise-ready cloud infrastructure practices.
 
-### Note : This project will be in Phases 
+#### Note : This project will be in Phases 
+
+### Phase 1 :Networking (VPC Foundation)
+1. Create VPC
+CIDR block: 10.0.0.0/16
+Enable:
+DNS resolution
+DNS hostnames
+Name: my-vpc
+ As shown in the image below :
+  
