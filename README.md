@@ -219,3 +219,9 @@ CREATE TABLE users (
    ![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(313).png)
 
    Image 19.
+
+Than i ran the command , as shown belown :
+
+ ![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(318).png)
+
+ Image 20: In the above image , when the command  ran it said that testdb was aleady create so i connected to it with '\c testdb' command and create the table , as shown in the lower part of the image above .  
