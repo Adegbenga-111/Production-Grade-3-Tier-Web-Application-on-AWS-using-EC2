@@ -260,5 +260,14 @@ In order to push the image , i had to set up two things
 
      Image 25.
 - Create a user , save the user information , and use that infromation to log in .
-   ![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(341).png)
+
+  ![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(341).png)
+
   Image 26 : loging successfully after some back and front .
+
+  Then i tagged  the docker image using "docker tag web-app:latest 738791088260.dkr.ecr.eu-west-2.amazonaws.com/web-app:lastest"  and then push the image to aws as show below :
+
+  ![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(343).png)
+
+   Image 27.
+   
