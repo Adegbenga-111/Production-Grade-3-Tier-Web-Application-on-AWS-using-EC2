@@ -225,3 +225,32 @@ Than i ran the command , as shown belown :
  ![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(318).png)
 
  Image 20: In the above image , when the command  ran it said that testdb was aleady create so i connected to it with '\c testdb' command and create the table , as shown in the lower part of the image above .  
+
+### Phase 2 : Building and pushing of the docker image ,and running of the contianer 
+#### Step 8:
+Defining of the backend folder I.e part of the software that will makes the backend like the api.js , dockerfile for the building of the image , etc.  The image below shows the dockerfile and the nignx config file :
+
+ ![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(321).png)
+
+ Image 21 : this shows the docker command and comments explaining each line .
+
+  ![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(323).png)
+
+  Image 22 : This shows the conf file for nignx.
+
+ #### Step 9 : 
+ Now that all of that is set , building the image with 
+
+ "docker build -t backend-php ."
+ as shown below :
+ ![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(332).png)
+
+ Image 23.
+After the image was done build i had to change the name to web-app:lastest (lastest was a misspell , and i just rolled with it) .
+
+To push the image i created a repo for my images on aws , named web-app , as shown below :
+
+ ![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(294).png)
+
+ Image 24.
+ 
