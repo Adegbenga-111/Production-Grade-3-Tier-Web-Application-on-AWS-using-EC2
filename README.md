@@ -182,7 +182,7 @@ Local VPC traffic only , as shown below :
 
 Image 17.
 
-### Phase 2 : Create  Relational DataBase And Creatiion Of The Table 
+### Phase 2 : Create  Relational DataBase Sever And Creatiion Of The DB 
 
 #### Step 6 :
 Engine: PostgreSQL
@@ -198,3 +198,24 @@ The Image below is the summary of the configuration of the DB :
  ![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(346).png)
 
 Imaage 18.
+
+#### Step 7: 
+Connecting to the DB to create the db and tables with the following Pgsql command :
+     
+
+ "CREATE DATABASE testdb;
+
+\c testdb;
+
+CREATE TABLE users (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(100),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+); "
+
+
+ After trying to connecting with the server from outside the vpc, ( it failed since the subnet og the DB is private and not cooneted to a NAT gateway ) , so i had to connect through a EC2 in the same VPC . 
+ The above Command was ran in the EC2 , after downloading the postgresql client  for ubuntu, As shown belown :
+   ![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(313).png)
+
+   Image 19.
