@@ -387,4 +387,20 @@ Lesson learned:
    ![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(400).png)
 
   image 36
+
+🔍 Root Cause
+- Frontend was served over HTTPS (CloudFront).
+- Backend API endpoint was HTTP.
+
+✅ Solution
+- Added HTTPS listener (443) on ALB.
   
+   ![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(401).png)
+
+  Image 37.
+- Requested SSL certificate using ACM.
+- Redirected HTTP → HTTPS.
+- Updated frontend fetch() URL to HTTPS.
+
+Lesson learned:
+Modern browsers enforce strict HTTPS security.
