@@ -366,3 +366,25 @@ SSH access to a private EC2 instance failed (permission denied).
 
 Lesson learned:
 Private instances require controlled access paths.
+
+#### 3. Application Load Balancer Target Group Not Showing Targets
+❌ Problem
+- Target group appeared empty even though EC2 backend was running.
+🔍 Root Cause
+-Backend EC2 instance was not registered with the target group.
+- Health check path did not exist.
+✅ Solution
+- Registered the EC2 instance manually to the target group.
+- Created a valid health check endpoint (e.g. /api/health.php).
+- Verified security group allowed ALB → EC2 traffic.
+Lesson learned:
+-ALB requires both registration and successful health checks.
+
+#### 4. Mixed Content Error (HTTPS Frontend → HTTP Backend)
+❌ Problem
+- Browser blocked API requests with:
+  
+   ![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(400).png)
+
+  image 36
+  
