@@ -290,3 +290,17 @@ Create s3 bucket name 'app-frontend100' , review of the configuration is shown b
    ![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(407).png)  
 
 Image 26.
+
+Then created a cloudfront distribution , update s3 policy , and change  the origin to the s3 endpoint , as shown in the images below 
+
+   ![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(408).png)  
+
+   Image 26 : Creation of the cloudfront 
+
+  ![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(411).png)  
+
+ Image 27  : updating s3 policy 
+
+ ![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(410).png) 
+
+ Image 30 : Changing of the origin to the s3 endpoint .
