@@ -398,7 +398,13 @@ Lesson learned:
    ![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(401).png)
 
   Image 37.
+  
 - Requested SSL certificate using ACM.
+   
+   ![Alt aws](https://github.com/Adegbenga-111/Production-Grade-3-Tier-Web-Application-on-AWS-using-ECS-Fargate/blob/main/Screenshot%20(428).png)
+
+    Image 38
+
 - Redirected HTTP → HTTPS.
 - Updated frontend fetch() URL to HTTPS.
 
